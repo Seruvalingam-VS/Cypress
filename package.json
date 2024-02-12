@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "this is my space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seruvalingam-VS/Cypress.git"
+  },
+  "author": "seruvalingam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seruvalingam-VS/Cypress/issues"
+  },
+  "homepage": "https://github.com/Seruvalingam-VS/Cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
