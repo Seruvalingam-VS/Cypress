@@ -1,4 +1,4 @@
-name: Html report
+name: Mocha Html Report
 on: push
 jobs:
   cypress-run:
@@ -12,5 +12,9 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
             command: npm run sanityTest
-            name : Html report
+
+      - name : Html Report      
+        uses: actions/upload-artifact@v4
+        with:
+            name: Mocha Report
             path: cypress/reports/html
