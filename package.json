@@ -4,6 +4,7 @@
   "description": "this is my space",
   "main": "index.js",
   "scripts": {
+    "sanityTest" : "npx cypress run --spec cypress/e2e/envconfig.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
