@@ -12,3 +12,5 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
             command: npm run sanityTest
+            name : Html report
+            path: cypress/reports/html
