@@ -13,4 +13,4 @@ jobs:
         with:
             record : true
         env:
-            CYPRESS_RECORD_KEY : ${{ secrets.CYPRESS_RECORD_KEY }}
+            CYPRESS_RECORD_KEY : e5119384-04ba-49fd-ac8d-ba7678636c94
