@@ -7,7 +7,7 @@
     "sanityTest": "npx cypress run --spec cypress/e2e/home.cy.js",
     "envTest": "npx cypress run --spec cypress/e2e/envconfig.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:cloud" : "cypress run --record --key e5119384-04ba-49fd-ac8d-ba7678636c94"
+    "cy:cloud": "cypress run --record --key e5119384-04ba-49fd-ac8d-ba7678636c94"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Seruvalingam-VS/Cypress#readme",
   "devDependencies": {
-    "cypress": "^13.7.0",
+    "cypress": "^13.7.2",
     "cypress-mochawesome-reporter": "^3.8.1",
     "cypress-xpath": "^2.0.1"
   }
