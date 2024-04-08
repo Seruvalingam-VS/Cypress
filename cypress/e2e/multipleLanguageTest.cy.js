@@ -1,6 +1,6 @@
 /// <reference types ="cypress"/>
 
-describe('Multi-Country Application Test', () => {
+describe('Multi-Country Application ', () => {
     const country_code = ['/ae/', '/uk/', '/in/', '/ca/']
 
     it('Should test application behavior for country', () => {
